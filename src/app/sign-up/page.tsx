@@ -12,7 +12,7 @@ export default function SignUp() {
       email: "",
       password: "",
   });
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [buttonDisabled, setButtonDisabled] = useState(false);
 
   useEffect(() => {
